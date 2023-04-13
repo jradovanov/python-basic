@@ -1,54 +1,46 @@
 '''
-After you have PyCharm ready with Directory and file/ files you can choose one of them in the left.
-Click twice over it and it will be open in the middle.
-Now, this is the work plot for your code.
-When you finish your job, to close the file have to click over the X in the right corner after the name
-The file will be stored in the left and can be opened whenever you want.
+After you have PyCharm ready with a directory and file/files, you can choose one of them on the left.
+Double-click on it and it will open in the middle. This is where you will write your code.
+When you finish, you can close the file by clicking on the X in the right corner next to the file name.
+The file will be saved on the left and can be opened again whenever you want.
 
-First program:
-As many computer language, the first task is to say: "Hallo world!"
-To do that you have many ways.
-The sample one is to use build in function - print()
-First we write - print() and in the brackets have to put this that we want to be displayed.
-If this is a text, we need to put in quotas. So, the code will be looks like that:
-print("Hallo world!")
-After that we need to perform some action if we want to see the result of our code.
-To do that, click with the right button of your mouse somewhere in the window and from the context menu
-choose: Run "name of your file" If your file is name it: "test", the command will be: Run "test"
-When everything is correct you will be able to see a new window down of the main one where
-the text "Hallo world!" is appeared. If something is wrong, let say the command is prin, not print, or
-you forget the brackets... the red text with explanation of the mistake will appear.
+The first program you will write in any computer language is usually the "Hello, World!" program.
+o do that in Python, you can use the built-in function print(). First, type print() and put the text
+that you want to be displayed inside the parentheses. If the text is a string, you need to put it
+inside quotation marks. So, the code will look like this: print("Hello, World!").
 
-So, if all is correct, you have your first code of python.
-The function "print()" is the main function which we use everywhere when the result have to be shown.
+To see the result of your code, you need to run it. Right-click anywhere in the file window and select
+"Run 'name of your file'". If your file is named "test", the command will be "Run 'test'".
+If everything is correct, you should see a new window appear below the main one with the text
+"Hello, World!" displayed. If there is an error in your code, such as misspelling the print function
+or forgetting the parentheses, an error message will appear in red text explaining the mistake.
 
-The other way to do that is to use variable.
-The variables also are main things that we have to use all the time.
-Usually, every variable, when we make it, have name which tell us what it used for.
-To make a variable we have just to write its name
-Let's name it our first variable: "greeting"
-In this case the code will looks like:
-greeting = "Hallo world!"
-The name of the variable is not in quotes never mind is also a text.
-The sign "=" tells to the python - assign this text to the variable.
-Now, when we are ready and have variable named: greeting, which contains the text "Hallo world!",
-we have to displayed.
-To do that, we have to use our function - print, but this time in the brackets will put our variable.
+If everything works correctly, congratulations! You have written your first Python program using the print() function.
+The print() function is used to display the result of your code.
 
-The final code will look like:
+Another way to display text is to use variables. Variables are used to store data that you want to use later
+in your code. Every variable has a name that tells you what it is used for. To create a variable,
+simply give it a name. Let's name our first variable "greeting". The code will look like this:
+greeting = "Hello, World!".
+The name of the variable should not be in quotes, even if it is a string.
 
-greeting = "Hallo world!"
+Once you have created a variable, you can display its contents using the print() function.
+This time, instead of putting the text inside the parentheses, you will put the name of the variable.
+So the final code will look like this:
+
+bash
+Copy code
+greeting = "Hello, World!"
 print(greeting)
-Now we have to start it in the familiar way or to use Ctrl + Shift + F10
-Note that the name of variable is without a quotes in the bracket.
-When we print() something, if we use quotes, the program will display what is in the quotes.
-In this case, if we put greetings like this: print("greeting") it will display - greeting
+Now you can run the code in the same way as before, either by right-clicking and selecting "Run",
+or by using the shortcut Ctrl + Shift + F10. Note that when you use the print() function with a variable,
+you do not need to use quotation marks around the variable name.
 
-So, in this lesson we understand that:
-1. print() - is a build in function used to display the result of our code
-2. In the quotes we can put this that we want to be displayed
-3. To make a variables. To give them a name that will speak about its self
-4. To assign to our variable what we need using sign "="
-5 When we want to display what a variable keep, we have to call it.
-For now, we call the variable used print() function
+In this lesson, you have learned:
+
+How to use the print() function to display text
+How to create variables with descriptive names
+How to assign values to variables using the = sign
+How to display the contents of a variable using the print() function
+The difference between putting text in quotes and using variables in the print() function.
 '''
