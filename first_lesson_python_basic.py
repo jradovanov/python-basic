@@ -2,10 +2,16 @@
 This is the beginning of our journey in python basic.
 The first think I wanted to know when I studied was how we can make such text as this one.
 To make a commentary in your code you can use brackets as I do. This method give you
-a possibility to make a text as long as you want. The other way is to use - # before every row.
+a possibility to make a text as long as you want.
+The other way is to use - # before every row.
 Example:
     # Some text
-There is another way. First you write what text you want, then select it and push Ctrl + /
+There is another way.
+First you have to write what text you want, then select it all.
+ To do that you can click somewhere in the window and push Ctrl + A.
+ The push Ctrl + /. You will see all rows started with - #.
+ Same way to uncomment.
+
 
 What is a python?
 Python is one of most popular and preferred program language. It is a intuitive, close to our speach
