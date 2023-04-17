@@ -21,4 +21,11 @@ The syntax will be: "int(input())" for numbers, or 'float(input())" for fraction
 numbers.
 These commands will change data in the wanted format.
 
+So, if we receive data which is not a numbers, have to write "input()"
+Here is the example:
+a = input()
+print(a)
+
+In this example, if we receive data - "Hello world", on display will
+be shown - Hello world-
 '''
