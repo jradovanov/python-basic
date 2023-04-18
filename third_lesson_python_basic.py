@@ -27,5 +27,5 @@ a = input()
 print(a)
 
 In this example, if we receive data - "Hello world", on display will
-be shown - Hello world-
+be shown - Hello world.
 '''
