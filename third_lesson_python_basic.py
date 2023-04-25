@@ -28,4 +28,27 @@ print(a)
 
 In this example, if we receive data - "Hello world", on display will
 be shown - Hello world.
+Note: If we receive numbers, it will not be shown as error but the numbers will be converted to symbols.
+They will be a string, and we will not be able to operate with them as a numbers.
+
+
+If we receive data which is number, have to write "int(input())"
+Here is the example:
+a = int(input())
+print(a)
+
+In this example, if we receive data - 234, on the display will be shown - 234
+Note: In this case if we receive data which is a string or fractional numbers, an error will be displayed:
+"The error will be: "invalid literal for int()"
+This mean that if you say to your IDE that you expect numbers, numbers must enter!
+If we are not sure what kind of data will be given, then is better to write "input()" and after that, when
+we see the data will be possible to convert in numbers.
+
+If we receive data which is fractional numbers, have to write "float(input()).
+Here is the example:
+a = float(input())
+print(a)
+
+In this example, if we receive data - 234.56, on the display will be shown - 234.56
+Note: Same rules as for the numbers are valid here.
 '''
