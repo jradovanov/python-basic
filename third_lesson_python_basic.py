@@ -51,4 +51,7 @@ print(a)
 
 In this example, if we receive data - 234.56, on the display will be shown - 234.56
 Note: Same rules as for the numbers are valid here.
+
+So, as a summary, we understand how to call the three main type of data.
+In next lesson we will try to use them in a tasks.
 '''
