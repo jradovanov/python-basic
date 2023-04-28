@@ -39,4 +39,8 @@ What is the use?
 In first example, we have to write print() 10 times. When the variable is used, this will be only this
 two rows because every time the variable "a" will be modified.
 
+So, in this lesson we understand how to use the function "print", how to use "variable" and that variable
+in python can be modified many times, something that the other languages cannot do.
+
+See you in next lesson - five
 '''
