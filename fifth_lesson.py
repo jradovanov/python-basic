@@ -11,6 +11,13 @@ How much is 5 x 6?
 Let's make three variables:
 a = 5
 b = 6
-c = a x b
+c = a * b
 print(c)
+In this example we will receive 30 as result. But not the result is interested in this case.
+The important is that we operate with variables and that variables could be manipulated and reused.
+
+This is all in this lesson
+In lesson 6 we will learn how sites greeting you by name.
+
+See you!
 '''
