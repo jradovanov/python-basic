@@ -20,6 +20,12 @@ print(a * b) - The result will be - 40
 print(a / b) - The result will be - 0.625
 print(a // b) - The result will be - 0
 
+If we have integer division, this mean that we have remainder.
+We have to use that somehow. And here comes operator "%"
+For example:
+7 // 2 = 3 - integer division
+7 % 2 = 1 - modular division
+
 '''
 m, n = input().split()
 print(type(m))
