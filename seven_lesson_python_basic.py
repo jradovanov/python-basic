@@ -27,7 +27,35 @@ For example:
 7 % 2 = 1 - modular division
 
 '''
-m, n = input().split()
-print(type(m))
-d, a = [int(x) for x in input().split()]
-print(type(d))
+python
+Copy code
+def add_todo():
+    title = input("Enter title: ")
+    text = input("Enter text: ")
+    with open("todos.txt", "a") as f:
+        f.write(f"{title}\n{text}\n")
+
+
+python
+Copy code
+def read_todos():
+    with open("todos.txt", "r") as f:
+        todos = f.readlines()
+    for i in range(0, len(todos), 2):
+        print(f"{todos[i].strip()}: {todos[i+1].strip()}")
+
+
+python
+Copy code
+def edit_todo():
+    title = input("Enter title of the todo you want to edit: ")
+    new_text = input("Enter new text: ")
+    with open("todos.txt", "r+") as f:
+        todos = f.readlines()
+        f.seek(0)
+        for i in range(0, len(todos), 2):
+            if todos[i].strip() == title:
+                f.write(f"{todos[i]}\n{new_text}\n")
+            else:
+                f.write(f"{todos[i]}{todos[i+1]}")
+        f.truncate()
