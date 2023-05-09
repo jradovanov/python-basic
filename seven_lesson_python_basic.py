@@ -1,5 +1,5 @@
 '''
-In this lesson we will learn about operators.
+In this lesson we will learn about arithmetic operators.
 In Python, operators are "+", "-", "/", "//", "*"
 We know them from mathematics. The only exception is "//"
 This operator means - integer division.
@@ -26,4 +26,10 @@ For example:
 7 // 2 = 3 - integer division
 7 % 2 = 1 - modular division
 
+This is all for now.
+Of course, the operators are not only one type but many. For now, we use the arithmetic and will use
+assignment operators later.
+
+Next lesson will be first one as real programmers.
+See you!
 '''
