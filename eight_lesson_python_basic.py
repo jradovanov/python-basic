@@ -15,3 +15,17 @@ After that, with one "tab"
 
 
 '''
+atrix = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]
+
+Как да вземем конкретен индекс:
+
+value = matrix[0][1]
+
+print(value)
+
+Как да обходим матрица с вложени цикли:
+
+for i in range(len(matrix)):
+    for j in range(len(matrix[0])):
+        print(matrix[i][j], end=' ')
+    print()
