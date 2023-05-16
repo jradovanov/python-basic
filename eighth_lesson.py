@@ -14,3 +14,23 @@ The whole expression will be: if a == b:
 After that, with one "tab" 
 
 '''
+
+# def is_a_super_set(first_set, second_set):
+#     return first_set.issuperset(second_set)
+#
+#
+# a = set([int(x) for x in input().split()])
+# number_of_set = int(input())
+# flag = False
+# for _ in range(number_of_set):
+#     new_set = set([int(x) for x in input().split()])
+#     result = is_a_super_set(a, new_set)
+#     # result = a.issuperset(new_set)
+#     if not result:
+#         flag = True
+#         break
+#
+# if flag:
+#     print("False")
+# else:
+#     print("True")
