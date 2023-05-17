@@ -34,3 +34,41 @@ After that, with one "tab"
 #     print("False")
 # else:
 #     print("True")
+
+# def mutate_string(string, position, character):
+#     string = string[:position] + character + string[position + 1:]
+#     return string
+#
+#
+# if __name__ == '__main__':
+#     s = input()
+#     i, c = input().split()
+#     s_new = mutate_string(s, int(i), c)
+#     print(s_new)
+
+
+# def print_full_name(first, last):
+#     result = f"Hello {first} {last}! You just delved into python."
+#     return result
+#
+#
+# if __name__ == '__main__':
+#     first_name = input()
+#     last_name = input()
+#     print(print_full_name(first_name, last_name))
+
+
+
+# a = "Www.HackerRank.com → wWW.hACKERrANK.COM"
+# b = "Pythonist 2 → pYTHONIST 2"
+# a = a.swapcase()
+# print(a)
+
+# def swap_case(s):
+#     return s.swapcase()
+#
+#
+# if __name__ == '__main__':
+#     s = input()
+#     result = swap_case(s)
+#     print(result)
