@@ -19,16 +19,4 @@ In Python, when we wants to refer something have to be 4 spaces or 1 tab inward.
 
 
 '''
-r, c = [int(x) for x in input().split(", ")]
-matrix = []
-all_sum = 0
-for _ in range(r):
-    inner_list = [int(x) for x in input().split(", ")]
-    # all_sum += sum(inner_list)
-    matrix.append(inner_list)
-print(matrix, sep="\n")
-for i in range(r):
-
-# print(all_sum)
-# print(matrix)
 
