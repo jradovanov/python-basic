@@ -23,3 +23,16 @@ if a == b:
 else:
     print(No! They are not")
 '''
+
+r, c = [int(x) for x in input().split(", ")]
+matrix = []
+all_sum = 0
+for _ in range(r):
+    inner_list = [int(x) for x in input().split(" ")]
+    matrix.append(inner_list)
+
+for col in range(c):
+    sum_col = 0
+    for row in range(r):
+        sum_col += matrix[row][col]
+    print(sum_col)
