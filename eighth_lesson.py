@@ -10,7 +10,16 @@ So, if we want to check "a" is equals or not to "b" have to write "=="
 How to check:
 First have to use "if" statement followed by condition a == b and ":" for the end.
 The whole expression will be: if a == b:
-<<<<<<< HEAD
-After that, with one "tab" 
+After that, with one "tab" inward we define what happens if it is true
+Example:
+    if a == b:
+        print("Yes! They are equals")
+What about if they are not?
+Then with "else" we define what should happen
+So, the complete code will look something like that:
 
+if a == b:
+    print(Yes! They are equals")
+else:
+    print(No! They are not")
 '''
