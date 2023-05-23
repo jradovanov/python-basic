@@ -15,7 +15,15 @@ if a == b:
     print("Yes!")
 As you can see, "print("Yes!")" is one tab inward.
 This mean that the entire expression that is inside refer to this "if check"
-In Python, when we wants to refer something have to be 4 spaces or 1 tab inward.
+In Python, when we want to refer something have to be 4 spaces or 1 tab inward.
+What about if they are not?
+Then with "else" we define what should happen
+So, the complete code will look something like that:
+
+if a == b:
+    print(Yes!")
+else:
+    print(No!")
 
 
 '''
