@@ -11,6 +11,6 @@ How to check:
 First have to use "if" statement followed by condition a == b and ":" for the end.
 The whole expression will be: if a == b:
 <<<<<<< HEAD
-After that, with one "tab" 
+After that, with one "tab"
 
 '''
